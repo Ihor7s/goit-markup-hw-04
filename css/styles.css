@@ -234,7 +234,6 @@ align-items: center;
     
 }
 
-
 .list {
     font-weight: 700;
     font-size: 14px;
@@ -302,6 +301,37 @@ align-items: center;
     letter-spacing: 0.03em;
     color: var(--color-text-secohd);
 } 
+.social-links {
+    display: flex;
+    width: 206px;
+    height: 44px;
+    justify-content: center;
+    margin: auto;
+    gap: 10px;
+}
+.social-links-item {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+
+
+}
+.social-links-item:hover {
+    background-color: var(--color-text-logo);
+}
+.link-icon {
+    
+}
+.icon-social {
+    width: 22px;
+    height: 22px;
+    fill: #AFB1B8;
+    
+}
+.icon-social:hover {
+    fill: var(--primery-background);
+
+}
 .list-team {
     background-color: var(--primery-background);
     display: inline-block;
@@ -331,7 +361,7 @@ align-items: center;
 }
 .position {
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 16px;
 }
 /*футер*/
 

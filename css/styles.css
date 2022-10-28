@@ -124,6 +124,9 @@ align-items: center;
 .heder-contact-tel-mailto:hover {
     fill: var(--color-text-logo);
 }
+.heder-contact-tel-mailto:focus {
+    fill: var(--color-text-logo);
+}
 .tel {
     width: 10px;
     height: 16px;
@@ -334,6 +337,9 @@ align-items: center;
     letter-spacing: 0.03em;
     color: var(--color-text);
 }
+.container-social {
+    padding-bottom: 30px;
+}
 .position {
     font-weight: 400;
     font-size: 16px;
@@ -347,8 +353,7 @@ align-items: center;
     height: 44px;
     margin: auto;
     gap: 10px;
-    
-    
+    border-color: #188CE8;
 }
 .social-links-item {
     width: 44px;
@@ -359,6 +364,9 @@ align-items: center;
 .social-links-item:hover {
     background-color: var(--color-text-logo);
 }
+.social-links-item:focus {
+    background-color: var(--color-text-logo);
+}
 .link-icon {
     width: 44px;
     height: 44px;
@@ -366,7 +374,6 @@ align-items: center;
     align-items: center;
     justify-content: center;
 }
-
 
 .icon-social {
     width: 22px;
@@ -377,7 +384,9 @@ align-items: center;
 }
 .icon-social:hover {
     fill: var(--primery-background);
-
+}
+.icon-social:focus {
+    fill: var(--primery-background);
 }
 .list-team {
     background-color: var(--primery-background);
@@ -432,7 +441,9 @@ align-items: center;
 .company-item:hover {
 border: 1px solid #2196F3;
 }
-
+.company-item:focus {
+    border: 1px solid #2196F3;
+}
 .icon-company {
     width: 106px;
     height: 60px;
@@ -442,19 +453,22 @@ border: 1px solid #2196F3;
 .icon-company:hover {
     fill: var(--color-text-logo);
 }
-    
+.icon-company:focus {
+    fill: var(--color-text-logo);
+}
 .company-link {
     
 }
-
-
 
 /*футер*/
 .footer {
     background-color: var(--second-background);
     padding-top: 60px;
     padding-bottom: 60px;
-    
+}
+.container-footer {
+    display: flex;
+    align-items: baseline;
 }
 .logo-footer {
     
@@ -510,6 +524,34 @@ margin-bottom: 9px;
     letter-spacing: 0.03em;
     color: var(--primery-background); 
     text-decoration: none;
+}
+
+/*фуТЕР СОЦ мережі*/
+
+.container-footer-social-title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+}
+.footer-social-links-item {
+        background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-icon-social {
+    width: 22px;
+    height: 22px;
+    fill: var(--primery-background);
+    
+}
+
+.container-footer-social {
+    margin-left: 70px;
 }
 
 /*портфоліо*/

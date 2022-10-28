@@ -203,6 +203,7 @@ align-items: center;
     display: block;
     min-width: 216px;
     margin: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .button:hover {
     background-color: #188CE8;
@@ -393,6 +394,8 @@ align-items: center;
     display: inline-block;
     margin-left: 26px;
     text-align: center;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
     
 }
 .list-team:first-child {
@@ -566,6 +569,7 @@ margin-bottom: 9px;
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+
 }
 .portfolio-button-item {
     margin-left: 8px;
@@ -581,6 +585,7 @@ margin-bottom: 9px;
     border: none;
     cursor: pointer;
     justify-content: center;
+    
     
     font-weight: 500;
     font-size: 16px;
@@ -621,6 +626,7 @@ padding-bottom: 94px;
 margin-right: 30px;
 margin-bottom: 30px;
 
+
 }
 .item-work:nth-child(3n) {
     margin-right: 0;
@@ -658,10 +664,14 @@ margin-bottom: 0;
     max-width: 322px;
 }
 .link-portfolio {
-    
+    display: block;
     list-style: none;
     text-decoration: none;
 }
-
-
+.link-portfolio:hover {
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.link-portfolio:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 /**/

@@ -105,17 +105,11 @@ align-items: center;
 
 
 /*хедер пошта тел*/
-.auth-nav {
-    margin-left: auto;
-    display: flex;
-    align-items: baseline;
-}
 
+/*
 .auth-nav-mailto {}
 
-.auth-nav-tel {
-    margin-left: 30px;
-}
+
 .mailto {
     width: 16px;
     height: 12px;
@@ -139,6 +133,32 @@ align-items: center;
     padding-right: 10px;
     
 }
+*/
+.auth-nav {
+    margin-left: auto;
+    display: flex;
+    align-items: baseline;
+}
+
+.heder-contact-mailto {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    color: currentColor;
+}
+.auth-nav-tel {
+    margin-left: 30px;
+    color: currentColor;
+}
+.heder-contact-tel {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+}
+.auth-nav-text {
+
+}
+
 .heder-contact {
     list-style: none;
     text-decoration: none;
@@ -148,13 +168,15 @@ align-items: center;
     letter-spacing: 0.02em;
     color: var(--color-text-secohd);
     padding: 32px 0;
+    display: flex;
+    align-items: center;
+    color: #757575;
 
 }
-.heder-contact:hover {
-    color: var(--color-text-logo);
-}
+.heder-contact:hover,
 .heder-contact:focus {
     color: var(--color-text-logo);
+    fill: #2196F3;
 }
 
 /*секція 1 заголовок і кнопка*/
@@ -368,6 +390,7 @@ align-items: center;
     align-items: center;
     justify-content: center;
     color: #AFB1B8;
+    
 }
 .link-icon:hover,
 .link-icon:focus {
@@ -531,6 +554,7 @@ margin-bottom: 9px;
 }
 .footer-social-links-item {
         background: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
 }
 
 .footer-icon-social {
